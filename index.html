@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mon portfolio en ligne</title>
+  <!--imports font-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!--imports css-->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<!--contenues Site-->
+
+<body>
+  <!-- header -->
+  <header class="container-fluid fixed-top  header">
+    <nav class="navbar fixed-top menu">
+      <a class="navbar-brand" href="#"><i class="fas fa-home" style=" font-size:30px;"></i></a>
+      <a href="#about" style="font-size: 150%;">Description</a>
+      <a href="#experience" style="font-size: 150%;">Expériences</a>
+      <a href="#formation" style="font-size: 150%;">Formation</a>
+      <a href="#competence" style="font-size: 150%;">Compétences</a>
+      <!--<a href="#loisir" style="font-size: 150%;">Loisirs</a>-->
+    </nav>
+
+  </header>
+  <!--end header -->
+
+  <!--bannière -->
+  <section class="container-fluid banner ">
+    <div class="ban">
+      <img src="img/ban.jpg" alt="bannière du site" />
+    </div>
+    <div class="inner-banner">
+      <div class="jumbotron-fluid text-center entete">
+        <h1 class=display-6>Ingénieur d'Etudes et Développement Java FullStack</h1>
+        <h1 class=display-5>Jules DUPUIS</h1>
+        <hr class="separator" />
+
+        <img src="img/photo.jpg" alt="profil" class="float-lg img_profile " />
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid flex-fill" id="about">
+    <h2>À propos de moi</h2>
+    <hr class="separator" />
+    <div classe=jumbotron-fluid id="text">
+      <p id="description">
+        j'ai débuté mes études en biologie, l’objectif était de se tourner vers des activités de recherche
+        scientifique. J'ai pu pendant son master et ses différentes activités en stage, à maintenir une veille
+        informationnelle,
+        concevoir des plans d’expérimentations, exploiter des résultats à l’aide d’outils informatiques, présenter des
+        résultats
+        et écrire de la documentation scientifique. C’est en pratiquant ces activités qu'il s'est découvert une
+        affinité pour
+        l’outil informatique. Il a donc entamé une reconversion, qui l’a conduit à son premier emploi et à apprendre
+        le métier
+        de développeur.
+        Aujourd’hui il désire se perfectionner. C’est pour cette raison qu’il entame une formation pour enrichir et
+        confirmer
+        ses compétences dans ce domaine. Il est très motivé quand il s’agit d’apprendre, utiliser de nouvelles
+        technologies
+        ainsi qu’à résoudre des problèmes.
+      </p>
+    </div>
+  </section>
+
+  <!--end bannière -->
+  <!--experience-->
+  <section class="container-fluid" id="experience">
+    <h2>Expériences</h2>
+    <hr class="separator" />
+    <div classe="jumbotron-fluid mb-5">
+      <div class=" d-flex flex-column flex-md-row justify-content-between mb-5 " id="text">
+        <div class="_exp col-8">
+          <h3 class="mb-3 px-3 text-left ">Ingénieur études et développement (DTA Ingénierie)</h3>
+          <p class="text-left">Par équipe de 3 à 4 personnes
+            - Mise en application des nouveaux acquis à la fin de chaque module de cours
+            - Utilisation de la méthodologie Scrum : backlog du produit, suivi du scrum-meeting
+
+            - Objectif : réaliser un module du Système d'Information d'une entreprise (gestion d'absences, gestion des
+            missions et
+            notes de frais, réservation d'un véhicule de service) composée d'interfaces responsives (HTML5/CSS3 et
+            Angular 7), d'une
+            API REST (Spring Framework) permettant de manipuler les ressources du système d'information, et une base de
+            données
+            (MySQL) gérée via Hibernate.
+          </p>
+        </div>
+        <div class="resume-date text-md-right col-4">
+          <span class="label_exp">Février 2020 à mai 2020</span>
+        </div>
+      </div>
+    </div>
+
+    <div classe="jumbotron-fluid pb-5">
+      <div class=" d-flex flex-column flex-md-row justify-content-between mb-5" id="text">
+        <div class="_exp col-8">
+          <h3 class="mb-3 px-3 text-left ">Ingénieur études et développement (Sopra Steria)</h3>
+          <p class="text-left">En poste dans le Centre de Services de Niort. Plusieurs postes et missions ont été occupé
+            au sein de l'entreprise. </br>La gestion de version, qui consitait en la gestion et la création des
+            différentes
+            branches de développement des projets, la création des packages de recettes avant l'intégration en
+            production. Analyse qualimetrique hebdomadaire du développement des branches projets.</br>
+            Développement Web Back-end sur des résolution d'anomalie.</br>
+
+          </p>
+        </div>
+        <div class="resume-date text-md-right col-4">
+          <span class="label_exp">Janvier 2018 à février 2020</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div classe="jumbotron-fluid pb-5">
+      <div class=" d-flex flex-column flex-md-row justify-content-between mb-5" id="text">
+        <div class="_exp col-8">
+          <h3 class="mb-3 px-3 text-left ">Chargé d’expérimentation (INRA)</h3>
+          <p class="text-left">En tant que stagiaire, dans l'UMR Biologie du Fruit et Pathologie (BFP), au sein d'une
+            équipe de 5 personnes. Travaux de laboratoire
+            Elaboration de protocoles d'expérimentations
+            Utilisation de logiciel d’analyse statistique.Présentation oral des resultats
+            Rédaction de rapport d'expérimentation
+
+          </p>
+        </div>
+        <div class="resume-date text-md-right col-4">
+          <span class="label_exp">Janvier 2018 à février 2020</span>
+        </div>
+      </div>
+    </div>
+
+    <div classe="jumbotron-fluid pb-5">
+      <div class=" d-flex flex-column flex-md-row justify-content-between mb-5" id="text">
+        <div class="_exp col-8">
+          <h3 class="mb-3 px-3 text-left ">Chargé d’expérimentation (INRA)</h3>
+          <p class="text-left">En tant que stagiaire, dans UMR Ecophysiologie et Génomique Fonctionnelle de la Vigne
+            (EGFV), à Villenave d'Ornon (33).Travaux de laboratoire
+            Utilisation de logiciel d’analyse statistique.Présentation oral des resultats
+            Rédaction de rapport d'expérimentation
+          </p>
+        </div>
+        <div class="resume-date text-md-right col-4">
+          <span class="label_exp">Janvier 2018 à février 2020</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--end experience -->
+  <!--Formation -->
+  <section class="container-fluid" id="formation">
+    <h2>Formation</h2>
+    <hr class="separator" />
+
+    <div classe="jumbotron-fluid pb-5">
+      <div class=" d-flex flex-column flex-md-row justify-content-between mb-5" id="text">
+        <div class="_exp col-8">
+          <h3 class="mb-3 px-3 text-left ">Formation développement JAVA JEE (DTA Ingénierie)</h3>
+          <p class="text-left">Formation pratique qui vise à compléter et concrétiser les connaissances nécessaires pour
+            la
+            conception,le développement et la maintenance des applications Java en environnement JEE,
+            associée à l’ensemble des technologies et frameworks utilisés en entreprise.
+          </p>
+        </div>
+        <div class="resume-date text-md-right col-4">
+          <span class="label_exp">Janvier 2018 à février 2020</span>
+        </div>
+      </div>
+    </div>
+
+    <div classe="jumbotron-fluid pb-5">
+      <div class=" d-flex flex-column flex-md-row justify-content-between mb-5" id="text">
+        <div class="_exp col-8">
+          <h3 class="mb-3 px-3 text-left ">Formation Java EE (Sopra Steria)</h3>
+          <p class="text-left">Formation pratique qui vise à compléter et concrétiser les connaissances nécessaires pour
+            Formation préparant à une reconversion pour un poste de développeur web. Elle prépare à l'emploi d'outils
+            nécessaires a
+            la programmation d'applications en Java EE. Elle dispense des enseignements sur les framework souvent
+            utilisés en
+            entreprise telle que Spring et Angular.
+          </p>
+        </div>
+        <div class="resume-date text-md-right col-4">
+          <span class="label_exp">Janvier 2018 à mars 2018</span>
+        </div>
+      </div>
+    </div>
+
+    <div classe="jumbotron-fluid pb-5">
+      <div class=" d-flex flex-column flex-md-row justify-content-between mb-5" id="text">
+        <div class="_exp col-8">
+          <h3 class="mb-3 px-3 text-left ">Master 2 Biologie Végétale Intégrative : Gène, Plante, Agrosystème
+            (Université
+            d'Angers</h3>
+          <p class="text-left">Le master BioVIGPA (Biologie végétale intégrative : Gène, plante, agrosystème) permet
+            d’appréhender de manière intégrée
+            les sciences du végétal et leurs applications agronomiques, biotechnologiques et agroalimentaires.
+          </p>
+        </div>
+        <div class="resume-date text-md-right col-4">
+          <span class="label_exp">Septembre 2016 à juin 2017</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--end Formation -->
+
+
+
+  <!--Competance-->
+  <section class="container-fluid competence">
+    <div class="container pb-5">
+      <h2 id="competence">Compétences</h2>
+      <hr class="separator" />
+      <div class="row container-fluid">
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2  item-compe"><i class="fab fa-java fa-5x "></i>
+        </article>
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2 item-compe"><i class="fab fa-html5 fa-5x py-2"></i>
+        </article>
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2 item-compe"><i class="fab fa-css3 fa-5x pt-2"></i></article>
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2 item-compe"><i class="fab fa-git fa-5x pt-2"></i></article>
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2 item-compe"><i class="fab fa-js fa-5x pt-2"></i></article>
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2 item-compe"><i class="fab fab-eclipse fa-5x pt-2"></i>
+        </article>
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2 item-compe"><img class=" pt-2" scr="img/bootstrap.png" />
+        </article>
+        <article class="col-md-1 col-lg-1 col-xs-2 col-sm-2 item-compe"><img class=" pt-2"
+            scr="img/external-content.duckduckgo.com.png" />
+        </article>
+      </div>
+    </div>
+  </section>
+  <!--end Competance-->
+
+  <!--footer/contact-->
+  <footer class="container-fluid my-5 footer">
+    <div class="container py-2">
+      <h2>Me retrouver</h2>
+      <hr class="separator2">
+      <div class="col-2 mx-auto py-2">
+        <a href="www.linkedin.com/in/jules-dupuis-0a18b310a/">
+          <i class="mx-2 my-2 fab fa-linkedin-in fa-4x"></i>
+        </a>
+        <a href="https://github.com/JulesDup">
+          <i class="mx-2 my-2 fab fa-github fa-4x"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!--end footer-->
+</body>
+
+</html>
